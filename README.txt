@@ -1,8 +1,19 @@
-Alphabet Challenge v3 — hints, random or fixed categories, optional leader participation and solitaire.
+ALPHABET CHALLENGE v3.1 — GitHub Pages
 
-Upload all files in this folder to the ROOT of your GitHub Pages repository. Replace existing files with the same names.
-Settings > Pages > Deploy from a branch > main > /(root).
+Upload all 9 files to the root of your alphabet-challenge repository.
+If GitHub browser upload refuses same-name replacements, use GitHub Desktop or edit individual files.
 
-Setup: choose number of OTHER players (0–4), category mode, optional fixed category, and whether leader plays. If zero other players, leader play is enabled for solitaire. When leader plays, answers are hidden at the start of every turn and can be revealed for checking. The leader takes a regular turn after other players.
+NEW:
+- Category checkboxes: one = fixed; two or more = random, no immediate repeat.
+- Selection saved on the device.
+- Online-first updates for answers.json, cached fallback when offline.
+- Network-first app shell with offline fallback; bumped service-worker cache.
+- Explicit favicon link to icon-192.png.
+- v3.1 label and database count in footer.
 
-The database has 1,160 entries and hints. Offline caching is version 3. On iPhone open the GitHub Pages site in Safari, then Share > Add to Home Screen.
+Database: bundled answers.json is a snapshot from the corrected master workbook.
+For future database changes, Google Sheets is the master; replace only answers.json.
+
+IMPORTANT: The first time you install v3.1, open the app while ONLINE.
+An already-open tab may require a refresh or closing and reopening.
+For offline use, open once online after installation so files are cached.
