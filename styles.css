@@ -11,3 +11,5 @@
 .category-option input{width:18px;height:18px;flex:none}
 @media(max-width:360px){.category-checks{grid-template-columns:1fr}}
 footer{flex-wrap:wrap}
+
+[hidden]{display:none!important}.bonus{background:#78551a;color:white}.controls{gap:6px}.controls>*{min-width:0;padding:10px 5px;font-size:15px}#answerEntry{width:100%;padding:10px;margin:6px 0;border:1px solid #b7c9da;border-radius:8px;font:inherit}#usedWrap{font-size:13px;overflow-wrap:anywhere}.score{gap:5px;flex-wrap:wrap}

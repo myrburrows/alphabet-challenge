@@ -100,6 +100,7 @@
      <input id="leaderPlays" type="checkbox"/>
      Leader also plays
     </label>
+    <label id="playModeWrap">Play mode<select id="playMode"><option value="standard">Standard — one player per letter</option><option value="all">All-Play — every player per letter</option></select></label>
     <p class="muted smalltext" id="setupNote">
     </p>
     <div class="actions">
@@ -178,10 +179,12 @@
      Suggestions, not strict rules. The leader can accept other valid answers and use or ignore the hints.
     </p>
    </section>
+   <div class="panel" id="answerEntryWrap" hidden><label for="answerEntry">Accepted answer (optional)</label><input id="answerEntry" type="text" autocomplete="off" placeholder="Record answer to prevent repeats"/><div id="usedWrap" hidden><strong>Already used:</strong> <span id="usedAnswers"></span></div></div>
    <div class="controls">
     <button class="primary" id="correct">
      ✓ Correct · +1
     </button>
+    <button class="bonus" id="bonus">Bonus · +2</button>
     <button class="secondary" id="pass">
      Pass · +0
     </button>
@@ -213,7 +216,7 @@
     <span id="databaseSize">
     </span>
     <span id="versionInfo">
-     v3.1
+     v3.2
     </span>
    </footer>
   </main>

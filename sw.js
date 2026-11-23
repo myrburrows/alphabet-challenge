@@ -1,5 +1,5 @@
-// Version 3.1: cache the application shell, refresh the database online.
-const CACHE = 'alphabet-challenge-shell-v3.1';
+// Version 3.2: cache the application shell, refresh the database online.
+const CACHE = 'alphabet-challenge-shell-v3.2';
 const DATA_CACHE = 'alphabet-challenge-data-v3.1';
 const SHELL = ['./', './index.html', './styles.css', './app.js',
   './manifest.webmanifest', './icon-192.png', './icon-512.png'];
